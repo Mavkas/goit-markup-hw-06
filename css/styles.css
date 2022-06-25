@@ -254,7 +254,6 @@ color: var(--primary-text-color); }
     display: block;
     margin-bottom: 4px; }
 .modal-title{
-margin-top: 20px;
 margin-bottom: 12px;
 color: var(--title-text-color);
 font-weight: 700;
@@ -303,10 +302,10 @@ textarea:placeholder-shown {
     color: rgba(117, 117, 117, 0.5);}
 
 .form-field.check {margin-bottom: 30px;}
-.check-icon-title{
+/*.check-text p{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;}
+    line-height: 1.71;}*/
 
 .visually-hidden{
 position: absolute;
@@ -338,7 +337,6 @@ background-color: transparent;
 transition:
 background-color var(--cubic) var(--timing-function),
 border var(--cubic) var(--timing-function);
-
 display: flex;
 align-items: center;
 justify-content: center; 
@@ -356,17 +354,6 @@ fill: transparent;}
 
 .modal-check:checked + .check-text span{background-color: var(--accent-color);
     border: none;}
-
-/*.modal-check:checked + .check-text span,
-.modal-check:focus + .check-text span {
-background-color: var(--accent-color);
-border-color: var(--accent-color);
-box-shadow: none;
-/*border: none;*/
-
-/*.modal-check:checked + .check-text .check-icon,
-.modal-check:focus + .check-text .check-icon {
-fill: var(--secondary-color);}*/
 
 .button.modal-submit {
 padding: 10px 55px;
@@ -390,6 +377,7 @@ cursor: pointer;}
 
 .button.modal-submit:hover,
 .button.modal-submit:focus{box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);}
+
 /*-----------Work-------------*/
 .antena::before{
 margin-bottom: 30px;
@@ -705,8 +693,7 @@ background-color:rgba(255, 255, 255, 0.1);}
   
   .footer-subscribe {
     width: 570px;
-    margin-left: 93px;
-  }
+    margin-left: auto;}
   
   .footer-input {
     width: 358px;
